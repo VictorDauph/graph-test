@@ -25,6 +25,10 @@ const nodes = [
       id: '5',
       text: '5'
     },
+    {
+      id: '6',
+      text: '6'
+    },
   ];
   
   const edges = [
