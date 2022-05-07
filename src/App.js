@@ -1,4 +1,4 @@
-//import Graph from "./components/graph";
+import Graph from "./components/graph";
 
 
 function App() {
