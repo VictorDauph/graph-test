@@ -20,7 +20,11 @@ const nodes = [
     {
       id: '4',
       text: '4'
-    }
+    },
+    {
+      id: '5',
+      text: '5'
+    },
   ];
   
   const edges = [
@@ -40,9 +44,14 @@ const nodes = [
       to: '4'
     },
     {
-      id: '2-4',
+      id: '3-4',
       from: '3',
       to: '4'
+    },
+    {
+      id: '3-5',
+      from: '3',
+      to: '5'
     },
   ];
 
