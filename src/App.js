@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <header>coucou</header>
-      {/*<Graph></Graph> */}
+      <Graph></Graph>
     </div>
   );
 }
