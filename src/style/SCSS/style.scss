@@ -16,12 +16,14 @@ header{
 
     position: fixed;
     top: 7em; bottom: 0; left: 0; right: 0;
-}
 
-.disabled{
-    fill: lightblue !important;
-    stroke-width:0 ;
-    + g text{
-        fill:rgba(0, 0, 255, 0.582) !important;
+    .disabled{
+        fill: lightblue;
+        stroke-width:0 ;
+        + g text{
+            fill:rgba(0, 0, 255, 0.582)
+        }
     }
 }
+
+
