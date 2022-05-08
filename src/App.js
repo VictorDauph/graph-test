@@ -1,10 +1,11 @@
 import Graph from "./components/graph";
+import Header from "./components/header";
 
 
 function App() {
   return (
     <div>
-      <header>coucou</header>
+      <Header />
       <Graph></Graph>
     </div>
   );

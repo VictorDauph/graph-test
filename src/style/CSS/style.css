@@ -1,0 +1,30 @@
+body {
+  background-color: beige;
+}
+
+header {
+  height: 5em;
+  width: 100%;
+  background-color: black;
+  color: gold;
+  padding: 2em;
+  margin-bottom: 100px;
+}
+
+#container {
+  position: fixed;
+  top: 7em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.disabled {
+  fill: lightblue;
+  stroke-width: 0;
+}
+.disabled + g text {
+  fill: rgba(0, 0, 255, 0.582);
+}
+
+/*# sourceMappingURL=style.css.map */
