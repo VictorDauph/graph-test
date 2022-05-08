@@ -19,9 +19,9 @@ header{
 }
 
 .disabled{
-    fill: lightblue;
+    fill: lightblue !important;
     stroke-width:0 ;
     + g text{
-        fill:rgba(0, 0, 255, 0.582);
+        fill:rgba(0, 0, 255, 0.582) !important;
     }
 }
