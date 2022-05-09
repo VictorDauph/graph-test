@@ -7,17 +7,20 @@ const nodes = [
     {
       id: '1',
       text: 'Trance initiation',
-      className:"active"
+      className:"active",
+      url:"https://res.cloudinary.com/drd4nkpfz/video/upload/v1651971847/sampleMusic/sampleMusic_pbnylz.mp3"
     },
     {
       id: '2',
       text: 'Reward',
-      className:"active"
+      className:"active",
+      url:"https://res.cloudinary.com/drd4nkpfz/video/upload/v1652081760/sampleMusic/fireSample_kucnia.mp3"
     },
     {
       id: '3',
       text: 'Deeper training',
-      className:"active"
+      className:"active",
+      url:"https://res.cloudinary.com/drd4nkpfz/video/upload/v1652081762/sampleMusic/rainSample_cngkjh.mp3"
     },
     {
       id: '4',
@@ -63,12 +66,13 @@ const nodes = [
 
   let playing=false
   var audio = new Audio();
-  audio.src="https://res.cloudinary.com/drd4nkpfz/video/upload/v1651971847/sampleMusic/sampleMusic_pbnylz.mp3"
+
 
   function handleClick(port){
     console.log("node ",port.id," clicked")
 
     if (playing == false){
+      audio.src=port.url
       audio.play();
       playing=true
     }
